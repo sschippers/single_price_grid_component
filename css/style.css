@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	background: #EEE;
+	font-weight: 400;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+}
+#container{
+	background: #FFF;
+  	border-radius: 5px;
+	overflow: hidden;
+	max-width: 604px;
+}
+#join{
+	color: hsl(179, 62%, 43%);
+	padding: 30px;
+	max-width: 604px;
+}
+#flex{
+	display: flex;
+    flex-flow: row nowrap;
+  	align-items: stretch;
+	max-width: 604px;
+}
+@media screen and (max-width: 400px) {
+  #flex{ 
+    display: flex;
+    flex-flow: row wrap;
+  	align-items: stretch;
+	max-width: 604px;   
+  }
+}
+#subscription{
+	background: #2bb3b1;
+	padding: 30px;
+	color: hsl(204, 43%, 93%);
+	flex: 1 1 auto;
+}
+#why{
+	float: left;
+	background: #4abebd;
+	padding: 30px;
+	color: hsl(204, 43%, 93%);
+	flex: 1 1 auto;
+}
+#title, #sub_title, #why_title{
+	font-size: 20px;
+	font-weight: 400;
+}
+#guarantee{
+	color: hsl(71, 73%, 54%);
+	font-weight: 700;
+}
+#price{
+	color: #64d5d3;
+}
+#hl_price{
+	font-size:35px;
+    vertical-align: middle;
+	color: hsl(204, 43%, 93%);
+}
+ul{
+	font-size: 16px;
+	list-style: none;
+	margin-left:-40px;
+}
+#signup{
+	background: hsl(71, 73%, 54%);
+	border-radius: 5px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+#signup:hover{
+	background: hsl(71, 73%, 70%);
+}
